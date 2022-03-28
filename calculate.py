@@ -29,6 +29,7 @@ def calculate():
   number2 = int(input("Second Number: ")) 
   finaloutput = None
 
+#if statements for adding etc
   if "add" in typeCalc:
       finaloutput = int(add(number1, number2))
   if "sub" in typeCalc:
