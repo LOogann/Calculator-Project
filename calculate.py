@@ -28,16 +28,20 @@ def calculate():
   number1 = int(input("First Number: "))
   number2 = int(input("Second Number: ")) 
   finaloutput = None
-
-#if statements for adding etc
+  
+#if statements for adding etc 
   if "add" in typeCalc:
       finaloutput = int(add(number1, number2))
+
   if "sub" in typeCalc:
       finaloutput = sub(number1, number2)
+
   if "mul" in typeCalc:
       finaloutput = mul(number1, number2)
+
   if "div" in typeCalc:
       finaloutput = div(number1, number2)
+
   if "exp" in typeCalc and number2 <= 10:
       finaloutput = exp(number1, number2)
   else:
