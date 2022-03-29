@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vs-minimal",
+    "diffEditor.ignoreTrimWhitespace": false
+}

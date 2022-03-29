@@ -29,7 +29,7 @@ def calculate():
   number2 = int(input("Second Number: ")) 
   finaloutput = None
 
-#if statements for adding etc 
+  #if statements for adding etc 
   if "add" in typeCalc:
       finaloutput = int(add(number1, number2))
 
@@ -44,7 +44,7 @@ def calculate():
 
   if "exp" in typeCalc and number2 <= 10:
       finaloutput = exp(number1, number2)
-  else:
+  elif "exp" in typeCalc and number2 > 10:
     print("second number is not less than or equal to 10")
 
 
