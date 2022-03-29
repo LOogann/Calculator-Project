@@ -9,11 +9,9 @@ def sub(a,b):
 #multiplication function
 def mul(a,b):
   return a * b
-
 #division function
 def div(a,b):
   return a/b
-
 #exponent functon
 def exp(a,b):
   return a ** b
@@ -30,6 +28,7 @@ def calculate():
   finaloutput = None
 
   #if statements for adding etc 
+  #final output is saved as the return of the add functions etc
   if "add" in typeCalc:
       finaloutput = int(add(number1, number2))
 
@@ -47,11 +46,6 @@ def calculate():
   elif "exp" in typeCalc and number2 > 10:
     print("second number is not less than or equal to 10")
 
-
-  # finaloutput = int(add(number1, number2))
-  # print(finaloutput)
-  # print(type(finaloutput))
   print(str(finaloutput))
 
 calculate()
-#calculate2()
