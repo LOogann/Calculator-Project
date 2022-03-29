@@ -28,7 +28,7 @@ def calculate():
   number1 = int(input("First Number: "))
   number2 = int(input("Second Number: ")) 
   finaloutput = None
-  
+
 #if statements for adding etc 
   if "add" in typeCalc:
       finaloutput = int(add(number1, number2))
