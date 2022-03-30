@@ -48,4 +48,5 @@ def calculate():
 
   print(str(finaloutput))
 
-calculate()
+#doesn't call at start anymore
+#calculate()
