@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 1,
     "git.autofetch": true,
-    "workbench.colorTheme": "Panda Syntax",
-    "workbench.iconTheme": "icons",
+    "workbench.colorTheme": "Nord",
+    "workbench.iconTheme": "material-icon-theme",
     "diffEditor.ignoreTrimWhitespace": false
 }
